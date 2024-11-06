@@ -28,4 +28,6 @@ dependencyResolutionManagement {
     }
 }
 
+rootProject.name = "TimeNest"
+
 include(":composeApp")

@@ -1,4 +1,4 @@
-package com.jetbrains.kmpapp.data
+package com.jimjuma.timenest.data
 
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.SupervisorJob

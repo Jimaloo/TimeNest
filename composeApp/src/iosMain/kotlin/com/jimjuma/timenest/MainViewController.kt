@@ -1,4 +1,4 @@
-package com.jetbrains.kmpapp
+package com.jimjuma.timenest
 
 import androidx.compose.ui.window.ComposeUIViewController
 

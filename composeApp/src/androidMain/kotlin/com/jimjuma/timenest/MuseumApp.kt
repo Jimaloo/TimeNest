@@ -1,7 +1,7 @@
-package com.jetbrains.kmpapp
+package com.jimjuma.timenest
 
 import android.app.Application
-import com.jetbrains.kmpapp.di.initKoin
+import com.jimjuma.timenest.di.initKoin
 
 class MuseumApp : Application() {
     override fun onCreate() {

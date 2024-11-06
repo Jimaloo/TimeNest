@@ -1,12 +1,11 @@
-package com.jetbrains.kmpapp.di
+package com.jimjuma.timenest.di
 
-import com.jetbrains.kmpapp.data.InMemoryMuseumStorage
-import com.jetbrains.kmpapp.data.KtorMuseumApi
-import com.jetbrains.kmpapp.data.MuseumApi
-import com.jetbrains.kmpapp.data.MuseumRepository
-import com.jetbrains.kmpapp.data.MuseumStorage
-import com.jetbrains.kmpapp.screens.detail.DetailViewModel
-import com.jetbrains.kmpapp.screens.list.ListViewModel
+import com.jimjuma.timenest.data.InMemoryMuseumStorage
+import com.jimjuma.timenest.data.KtorMuseumApi
+import com.jimjuma.timenest.data.MuseumApi
+import com.jimjuma.timenest.data.MuseumRepository
+import com.jimjuma.timenest.data.MuseumStorage
+import com.jimjuma.timenest.screens.home.ListViewModel
 import io.ktor.client.HttpClient
 import io.ktor.client.plugins.contentnegotiation.ContentNegotiation
 import io.ktor.http.ContentType
@@ -38,7 +37,6 @@ val dataModule = module {
 
 val viewModelModule = module {
     factoryOf(::ListViewModel)
-    factoryOf(::DetailViewModel)
 }
 
 fun initKoin() {

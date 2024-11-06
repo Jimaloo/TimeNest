@@ -59,11 +59,11 @@ kotlin {
 }
 
 android {
-    namespace = "com.jetbrains.kmpapp"
-    compileSdk = 35
+    namespace = "com.jimjuma.timenest"
+    compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.jetbrains.kmpapp"
+        applicationId = "com.jimjuma.timenest"
         minSdk = 24
         targetSdk = 35
         versionCode = 1
